@@ -1,0 +1,26 @@
+.cell {
+  height: 50px;
+  margin: 3px 2px;
+  background-color: cyan;
+  border: 1px solid #ddd;
+  font-size: 2.8rem;
+  color: darkblue;
+  text-align: center;
+  flex: 1 0 30%;
+}
+
+.row {
+  width: 210px;
+  margin: 5px 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.title {
+  color: darkblue;
+}
+
+.current-player h2 {
+  display: inline;
+  color: darkblue;
+}
