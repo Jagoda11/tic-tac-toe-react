@@ -1,5 +1,6 @@
 import React from 'react';
 import './Game.css';
+import { isGameOver } from '../Rules/Rules';
 
 class GameComponent extends React.Component {
   constructor(props) {
@@ -35,6 +36,7 @@ class GameComponent extends React.Component {
         </div>
         <div className='row'>
           {this.state.cells.map((cell, index) => {
+            console.log(cell);
             return (
               <div
                 className='cell'
@@ -46,6 +48,7 @@ class GameComponent extends React.Component {
             );
           })}
         </div>
+        {isGameOver(this.state.cells).toString()}
       </>
     );
   }
