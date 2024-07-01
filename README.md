@@ -1,5 +1,9 @@
 # 🚀 Getting Started with Create React App
 
+![GitHub Issues](https://img.shields.io/github/issues/Jagoda11/tic-tac-toe-react?style=flat-square&color=blue)
+![Last Commit](https://img.shields.io/github/last-commit/Jagoda11/tic-tac-toe-react?style=flat-square&color=green)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## 📜 Available Scripts
