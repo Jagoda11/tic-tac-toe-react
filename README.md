@@ -44,6 +44,16 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
+### Dependency Update and Vulnerability Scan 🛡️
+
+This workflow is scheduled to run daily and can also be triggered manually. It performs the following tasks:
+
+- **Updates all npm dependencies** to their latest versions.
+- **Performs a vulnerability scan** using Debricked to ensure that updated dependencies do not introduce security vulnerabilities.
+- **Commits and pushes any changes** if dependencies are updated successfully.
+
+These workflows help maintain the health and security of the project, ensuring it remains robust and up-to-date.
+
 
 ## 📚 Learn More
 
